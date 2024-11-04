@@ -38,7 +38,7 @@ window.onload = function () {
                     field.style.opacity = '1';
                 }, index * 200);  // Delay for each field
             });
-        }, 1000);  // Wait 1 second before showing the form
+        }, 500);  // Wait 1 second before showing the form
     }, 4000);  // Starts after another 1 second (4 seconds total)
 
     // Show password toggle functionality
